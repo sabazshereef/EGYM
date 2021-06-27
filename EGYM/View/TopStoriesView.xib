@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="EGYM" customModuleProvider="target">
+            <connections>
+                <outlet property="topListTable" destination="Xy6-sr-qGe" id="giX-mJ-WBV"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GgT-0f-TRB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xy6-sr-qGe">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0iE-O0-A0j"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="2WR-Se-KTj"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6w3-kC-7hb"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="HWF-iJ-nAg"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="KIR-GL-En4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Xy6-sr-qGe" secondAttribute="trailing" id="ZO0-Bx-kFq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Xy6-sr-qGe" secondAttribute="bottom" id="dS9-26-mXi"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ooH-Od-oXx"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pZ9-xg-zgV"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="uzt-2G-W2y"/>
+                <constraint firstAttribute="trailing" secondItem="Xy6-sr-qGe" secondAttribute="trailing" id="xyq-hL-I5V"/>
+                <constraint firstItem="Xy6-sr-qGe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="yPx-ff-fci"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="0iE-O0-A0j"/>
+                    <exclude reference="6w3-kC-7hb"/>
+                    <exclude reference="HWF-iJ-nAg"/>
+                    <exclude reference="KIR-GL-En4"/>
+                    <exclude reference="ooH-Od-oXx"/>
+                    <exclude reference="uzt-2G-W2y"/>
+                    <exclude reference="xyq-hL-I5V"/>
+                    <exclude reference="yPx-ff-fci"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <exclude reference="ZO0-Bx-kFq"/>
+                    <exclude reference="dS9-26-mXi"/>
+                    <exclude reference="2WR-Se-KTj"/>
+                    <include reference="6w3-kC-7hb"/>
+                    <include reference="HWF-iJ-nAg"/>
+                    <exclude reference="pZ9-xg-zgV"/>
+                    <include reference="xyq-hL-I5V"/>
+                    <include reference="yPx-ff-fci"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="constraints">
+                    <exclude reference="ZO0-Bx-kFq"/>
+                    <exclude reference="dS9-26-mXi"/>
+                    <include reference="0iE-O0-A0j"/>
+                    <exclude reference="2WR-Se-KTj"/>
+                    <include reference="KIR-GL-En4"/>
+                    <include reference="ooH-Od-oXx"/>
+                    <exclude reference="pZ9-xg-zgV"/>
+                    <include reference="uzt-2G-W2y"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="96.428571428571431" y="91.304347826086968"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
